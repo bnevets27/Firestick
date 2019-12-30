@@ -7,7 +7,7 @@ echo "Enabling Amazon Bloat...."
 echo ""
 echo ""
 
-# Packages not in FireOS 6.1.7.1
+# Packages not in FireOS 6.2.6.8
 #pm enable com.amazon.acos.providers.UnifiedSettingsProvider
 #pm enable com.amazon.parentalcontrols
 #pm enable com.amazon.precog
@@ -31,7 +31,7 @@ echo ""
 #pm enable com.amazon.webview.awvdeploymentservice
 
 
-# Do Not Remove on FireOS 6.1.7.1
+# Do Not Remove on FireOS 6.2.6.8
 #pm enable com.amazon.tv.forcedotaupdater.v2 2>/dev/null # NEEDED FOR OOBE REG / WI-FI SETUP
 #pm enable com.amazon.tv.launcher #needed for settings when using AFTV-MM
 
