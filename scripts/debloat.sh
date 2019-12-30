@@ -47,6 +47,16 @@ pm disable com.amazon.android.marketplace
 # pm disable com.amazon.application.compatibility.enforcer
 # pm disable com.amazon.application.compatibility.enforcer.sdk.library
 
+# Only Disable If Amazon Video and Store Will Not Be Needed as User Installed APKs
+pm disable com.amazon.avod
+pm disable com.amazon.shoptv.client
+#do not disable if you want to use the Amazon app store
+#pm disable com.amazon.venezia
+
+# Amazon Download Manager - do not disable if you want to use the Amazon app store
+#pm disable com.android.providers.downloads
+
+
 pm disable com.amazon.awvflingreceiver
 pm disable com.amazon.bueller.music
 pm disable com.amazon.bueller.notification
@@ -166,11 +176,6 @@ pm disable com.amazon.vizzini
 # Screen Mirroring Function
 #pm disable com.amazon.wcast.sink
 
-# Only Disable If Amazon Video and Store Will Not Be Needed as User Installed APKs
-pm disable com.amazon.avod
-pm disable com.amazon.shoptv.client
-pm disable com.amazon.venezia
-
 # Home may kill enough by itself (untested)
 #pm disable com.amazon.tv.launcher/.ui.HomeActivity
 #pm disable com.amazon.tv.launcher/.ui.ItemLoadingActivity
@@ -208,9 +213,6 @@ pm disable com.amazon.venezia
 
 # Disable Factory Reset Option
 #pm disable com.amazon.tv.settings/com.amazon.tv.settings.tv.FactoryResetActivity
-
-# Amazon Download Manager
-pm disable com.android.providers.downloads
 
 # Device Provisioner
 pm disable com.android.managedprovisioning
