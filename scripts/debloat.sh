@@ -7,7 +7,7 @@ echo "Disabling Amazon Bloat...."
 echo ""
 echo ""
 
-# Packages not in FireOS 6.1.7.1
+# Packages not in FireOS 6.2.6.8
 #pm disable com.amazon.acos.providers.UnifiedSettingsProvider
 #pm disable com.amazon.parentalcontrols
 #pm disable com.amazon.precog
