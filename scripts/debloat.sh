@@ -31,7 +31,7 @@ echo ""
 #pm disable com.amazon.webview.awvdeploymentservice
 
 
-# Do Not Remove on FireOS 6.1.7.1
+# Do Not Remove on FireOS 6.2.6.8
 #pm disable com.amazon.tv.forcedotaupdater.v2 2>/dev/null # NEEDED FOR OOBE REG / WI-FI SETUP
 #pm disable com.amazon.tv.launcher #needed for settings when using AFTV-MM
 
