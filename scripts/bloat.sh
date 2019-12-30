@@ -1,3 +1,5 @@
+#All credit goes to original script creator esc0rtd3w, his repo located here: https://github.com/esc0rtd3w/firestick-loader
+
 #!/system/bin/sh
 
 #clear
