@@ -56,11 +56,21 @@ pm disable com.amazon.shoptv.client
 # Amazon Download Manager - do not disable if you want to use the Amazon app store
 #pm disable com.android.providers.downloads
 
+####
+#Resonsible for equipment control setup process - can be disabled after equipment has been setup
+#pm disable com.amazon.kindle.devicecontrols
+#pm disable com.amazon.connectivitydiag
+# OTA Related
+#pm disable com.amazon.device.software.ota
+# Device Provisioner
+#pm disable com.android.managedprovisioning
+# Possibe Remote Update??
+#pm disable com.amazon.device.bluetoothdfu
+####
 
 pm disable com.amazon.awvflingreceiver
 pm disable com.amazon.bueller.music
 pm disable com.amazon.bueller.notification
-pm disable com.amazon.connectivitydiag
 pm disable com.amazon.device.crashmanager
 pm disable com.amazon.device.messaging
 pm disable com.amazon.device.messaging.sdk.internal.library
@@ -68,7 +78,6 @@ pm disable com.amazon.device.messaging.sdk.library
 pm disable com.amazon.device.sync
 pm disable com.amazon.device.sync.sdk.internal
 pm disable com.amazon.kindle.cms
-pm disable com.amazon.kindle.devicecontrols
 pm disable com.amazon.kso.blackbird
 pm disable com.amazon.ods.kindleconnect
 pm disable com.amazon.providers
@@ -102,7 +111,6 @@ pm disable com.amazon.device.logmanager
 pm disable com.amazon.dcp
 pm disable com.amazon.dcp.contracts.framework.library
 #pm disable com.amazon.dcp.contracts.library
-pm disable com.amazon.device.software.ota
 pm disable com.amazon.device.software.ota.override
 #pm disable com.amazon.device.software.ota.handler.OtaTaskHandler
 
@@ -149,9 +157,6 @@ pm disable com.amazon.tv.csapp
 
 # Amazon Screensaver
 pm disable com.amazon.bueller.photos
-
-# Possibe Remote Update??
-pm disable com.amazon.device.bluetoothdfu
 
 # Captive Portal Launcher
 #pm disable com.amazon.cpl
@@ -213,9 +218,6 @@ pm disable com.amazon.vizzini
 
 # Disable Factory Reset Option
 #pm disable com.amazon.tv.settings/com.amazon.tv.settings.tv.FactoryResetActivity
-
-# Device Provisioner
-pm disable com.android.managedprovisioning
 
 # VoiceView
 pm disable com.amazon.logan
