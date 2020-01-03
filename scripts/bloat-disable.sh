@@ -32,6 +32,7 @@ echo ""
 
 
 # Do Not Remove on FireOS 6.2.6.8
+# Forced App Updater
 #pm disable com.amazon.tv.forcedotaupdater.v2 # NEEDED FOR OOBE REG / WI-FI SETUP
 #pm disable com.amazon.tv.launcher #needed for settings when using AFTV-MM
 
@@ -360,9 +361,6 @@ pm disable com.amazon.tv.alexaalerts
 # pm disable com.amazon.devicecontrol
 # pm disable com.amazon.tv.devicecontrol
 # pm disable com.amazon.tv.devicecontrolsettings
-
-# Forced App Updater
-pm disable com.amazon.tv.forcedotaupdater.v2
 
 # ReleaseNotes
 pm disable com.amazon.tv.releasenotes
