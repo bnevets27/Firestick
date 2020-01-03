@@ -29,6 +29,12 @@ echo ""
 #pm disable com.amazon.amazonvideo.livingroom
 #pm disable com.amazon.kor.demo
 #pm disable com.amazon.webview.awvdeploymentservice
+# Fire TV Alexa Alerts
+#pm disable com.amazon.tv.alexaalerts
+# com.amazon.ftv.xpicker stub-apk
+#pm disable com.amazon.ftv.xpicker
+# My Application 2.0 (WTF! LMAO)
+#pm disable com.amazon.appaccesskeyprovider
 
 
 # Do Not Remove on FireOS 6.2.6.8
@@ -320,9 +326,6 @@ pm disable com.amazon.alexa.externalmediaplayer.fireos
 # ALE (Unknown)
 pm disable com.amazon.ale
 
-# My Application 2.0 (WTF! LMAO)
-pm disable com.amazon.appaccesskeyprovider
-
 # Alexa Voice Layer
 pm disable com.amazon.avl.ftv
 
@@ -344,18 +347,10 @@ pm disable com.amazon.ftv.glorialist
 # Screensaver (REMOVAL CAN BREAK AMAZON UI)
 # pm disable com.amazon.ftv.screensaver
 
-# com.amazon.ftv.xpicker stub-apk
-pm disable com.amazon.ftv.xpicker
-
 # Katoch (Unknown)
 pm disable com.amazon.katoch
 
 # pm disable com.amazon.providers.tv
-
-# Fire TV Alexa Alerts
-pm disable com.amazon.tv.alexaalerts
-
-# Unknown
 
 # Equipment Control (REMOVAL CAN BREAK AMAZON UI)
 # pm disable com.amazon.devicecontrol
