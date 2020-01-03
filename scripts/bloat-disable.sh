@@ -32,18 +32,13 @@ echo ""
 
 
 # Do Not Remove on FireOS 6.2.6.8
-#pm disable com.amazon.tv.forcedotaupdater.v2 2>/dev/null # NEEDED FOR OOBE REG / WI-FI SETUP
+#pm disable com.amazon.tv.forcedotaupdater.v2 # NEEDED FOR OOBE REG / WI-FI SETUP
 #pm disable com.amazon.tv.launcher #needed for settings when using AFTV-MM
 
 
-# Do Not Remove on 5.2.7.2 (Breaks Display and Applications Settings)
+# Do Not Remove on 5.2.7.2
+#Breaks Display and Applications Settings
 #pm disable amazon.jackson19
-
-pm disable android.amazon.perm
-pm disable com.amazon.ags.app
-pm disable com.amazon.android.marketplace
-
-# Do Not Remove For 5.2.7.2
 # pm disable com.amazon.application.compatibility.enforcer
 # pm disable com.amazon.application.compatibility.enforcer.sdk.library
 
@@ -58,16 +53,18 @@ pm disable com.amazon.shoptv.client
 
 ####
 #Resonsible for equipment control setup process - can be disabled after equipment has been setup
+#Fire Whispercast
 #pm disable com.amazon.kindle.devicecontrols
 #pm disable com.amazon.connectivitydiag
-# OTA Related
-#pm disable com.amazon.device.software.ota
 # Device Provisioner
 #pm disable com.android.managedprovisioning
 # Possibe Remote Update??
 #pm disable com.amazon.device.bluetoothdfu
 ####
 
+pm disable android.amazon.perm
+pm disable com.amazon.ags.app
+pm disable com.amazon.android.marketplace
 pm disable com.amazon.awvflingreceiver
 pm disable com.amazon.bueller.music
 pm disable com.amazon.bueller.notification
@@ -111,6 +108,7 @@ pm disable com.amazon.device.logmanager
 pm disable com.amazon.dcp
 pm disable com.amazon.dcp.contracts.framework.library
 #pm disable com.amazon.dcp.contracts.library
+pm disable com.amazon.device.software.ota
 pm disable com.amazon.device.software.ota.override
 #pm disable com.amazon.device.software.ota.handler.OtaTaskHandler
 
