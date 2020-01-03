@@ -37,30 +37,27 @@ echo ""
 
 
 # Do Not Remove on 5.2.7.2
-#Breaks Display and Applications Settings
+# Breaks Display and Applications Settings
 #pm disable amazon.jackson19
-# pm disable com.amazon.application.compatibility.enforcer
-# pm disable com.amazon.application.compatibility.enforcer.sdk.library
+#pm disable com.amazon.application.compatibility.enforcer
+#pm disable com.amazon.application.compatibility.enforcer.sdk.library
 
+###
 # Only Disable If Amazon Video and Store Will Not Be Needed as User Installed APKs
+# Video (Amazon Video)
 pm disable com.amazon.avod
 pm disable com.amazon.shoptv.client
 #do not disable if you want to use the Amazon app store
+# Appstore (Amazon Appstore)
 #pm disable com.amazon.venezia
+###
 
 # Amazon Download Manager - do not disable if you want to use the Amazon app store
 #pm disable com.android.providers.downloads
 
-####
 #Resonsible for equipment control setup process - can be disabled after equipment has been setup
-#Fire Whispercast
-#pm disable com.amazon.kindle.devicecontrols
 #pm disable com.amazon.connectivitydiag
-# Device Provisioner
-#pm disable com.android.managedprovisioning
-# Possibe Remote Update??
-#pm disable com.amazon.device.bluetoothdfu
-####
+
 
 pm disable android.amazon.perm
 pm disable com.amazon.ags.app
@@ -75,7 +72,9 @@ pm disable com.amazon.device.messaging.sdk.library
 pm disable com.amazon.device.sync
 pm disable com.amazon.device.sync.sdk.internal
 pm disable com.amazon.kindle.cms
+#Special Offers (Lock Screen Ads)?
 pm disable com.amazon.kso.blackbird
+#Mayday
 pm disable com.amazon.ods.kindleconnect
 pm disable com.amazon.providers
 pm disable com.amazon.providers.contentsupport
@@ -94,6 +93,12 @@ pm disable com.amazon.webview
 
 # Factory Data Reset Whitelist Manager
 pm disable com.amazon.platform.fdrw
+
+# Device Provisioner
+pm disable com.android.managedprovisioning
+
+# Possibe Remote Update??
+pm disable com.amazon.device.bluetoothdfu
 
 # FrameworksMetrics
 pm disable com.amazon.tv.fw.metrics
@@ -175,6 +180,9 @@ pm disable com.amazon.vizzini
 #pm disable com.amazon.tcomm
 #pm disable com.amazon.tcomm.client
 #pm disable com.amazon.dp.logger
+
+#Fire Whispercast
+#pm disable com.amazon.kindle.devicecontrols
 
 # Screen Mirroring Function
 #pm disable com.amazon.wcast.sink
@@ -259,7 +267,7 @@ pm disable com.amazon.ssdpservice
 #pm disable com.amazon.tv.notificationcenter
 
 
-# Fitbit Support???
+# Fitbit Support???/H2Application
 pm disable com.amazon.alta.h2clientservice
 
 # DIAL (Discovery-and-Launch) protocol (allow apps to access via second screen)
@@ -301,8 +309,6 @@ pm disable com.amazon.tv.legal.notices
 pm disable com.amazon.tmm.tutorial
 
 # pm disable com.amazon.tv.forcedotaupdater
-
-# FireOS 5.2.7.2
 
 # Alexa Media Controller
 pm disable com.amazon.alexa.externalmediaplayer.fireos
